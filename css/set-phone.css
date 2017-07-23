@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+html {
+  font-size: 20px; }
+
+body {
+  background: #f5f5f5; }
+
+.nav {
+  width: 100%;
+  height: 2rem;
+  background: #ffac2c;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav span {
+    display: block;
+    width: 0.5rem; }
+  .nav .nav-l {
+    color: white;
+    font-size: 1rem; }
+  .nav label {
+    font-stretch: 0.75rem;
+    color: white; }
+
+.content {
+  width: 100%;
+  text-align: center; }
+  .content .content-p {
+    font-size: 0.6rem;
+    color: #878787;
+    padding: 0.75rem 0 0.45rem 0; }
+  .content h2 {
+    font-size: 1rem;
+    padding: 0.5rem 0 1rem; }
+  .content .con {
+    width: 100%;
+    height: 2rem;
+    position: relative; }
+    .content .con input {
+      width: 100%;
+      height: 2rem;
+      border: 0;
+      padding-left: 1.8rem; }
+    .content .con span {
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      background: url(../img/pass-1.png);
+      background-size: 1rem;
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem; }
+    .content .con #btn {
+      width: 4.5rem;
+      height: 1.25rem;
+      background: #fa5a2a;
+      color: white;
+      font-size: 0.65rem;
+      text-align: center;
+      line-height: 1.25rem;
+      position: absolute;
+      top: 0.36rem;
+      right: 0.5rem;
+      padding-left: 0; }
+  .content .bottom {
+    padding: 0 0.5rem; }
+    .content .bottom .btn {
+      padding: 0 0.5rem;
+      margin-top: 0.85rem;
+      width: 100%;
+      height: 1.55rem;
+      padding: 0 0.5rem;
+      border: none;
+      background: #fed555;
+      font-size: 0.65rem;
+      color: white;
+      border-radius: 0.2rem; }
+
+/*# sourceMappingURL=set-phone.css.map */

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>系统设置-登录密码验证</title>
+		<link rel="stylesheet" type="text/css" href="../css/set-phone.css"/>
+		
+		<script src="../js/zepto.min.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/set-phone.js"></script>
+	</head>
+	<body>
+		<nav class="nav">
+			<span class="nav-l">&lt;</span>
+			<label>手机验证</label>
+			<span></span>
+		</nav>
+		
+		<div class="content">
+			<p class="content-p">验证短信已发送到手机号为：</p>
+			<h2>18613341524</h2>
+			<div class="con">
+				<input type="text" placeholder="输入手机验证码" class="password"/>
+				<span></span>
+				<input type="button" value="发送验证码" id="btn" onclick="settime(this)"/>
+			</div>
+			
+			<div class="bottom">
+				<input type="button" value="确定" class="btn"/>
+			</div>
+		</div>
+	</body>
+</html>

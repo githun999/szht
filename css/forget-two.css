@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.forget-two-head {
+  font-size: 0.31rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  height: 1.4rem;
+  line-height: 1.4rem; }
+  .forget-two-head a {
+    position: absolute;
+    width: 0.2rem;
+    height: 0.29rem;
+    top: 0.05rem;
+    left: 0.24rem; }
+    .forget-two-head a img {
+      width: 100%;
+      height: 100%; }
+
+.forget-two-list {
+  margin-top: 0.27rem;
+  width: 100%; }
+  .forget-two-list p:nth-child(1), .forget-two-list p:nth-child(2) {
+    width: 5.82rem;
+    height: 0.88rem;
+    margin-left: 0.27rem; }
+  .forget-two-list p:nth-child(1) {
+    font-size: 0.3rem; }
+  .forget-two-list p:nth-child(2) {
+    font-size: 0.27rem;
+    position: relative;
+    border-bottom: 1px solid #ffc830; }
+    .forget-two-list p:nth-child(2) input {
+      width: 5.82rem;
+      padding-left: 0.52rem;
+      height: 100%;
+      border: none;
+      line-height: 0.88rem;
+      font-size: 0.25rem; }
+    .forget-two-list p:nth-child(2) span:nth-of-type(1) {
+      position: absolute;
+      left: 0;
+      top: 0.28rem;
+      width: 0.25rem;
+      height: 0.32rem; }
+      .forget-two-list p:nth-child(2) span:nth-of-type(1) img {
+        width: 100%;
+        height: 100%; }
+    .forget-two-list p:nth-child(2) .clear {
+      position: absolute;
+      right: 0.14rem;
+      top: 0.28rem;
+      width: 0.47rem;
+      height: 0.47rem;
+      border-radius: 50%;
+      text-align: right;
+      border: 2px solid #fd0002;
+      font-size: 0.25rem;
+      color: crimson; }
+      .forget-two-list p:nth-child(2) .clear #t {
+        position: absolute;
+        top: 0.02rem;
+        left: 0.03rem; }
+  .forget-two-list p:nth-child(3) {
+    margin-top: 0.27rem;
+    width: 6.04rem;
+    height: 0.88rem;
+    margin-left: 0.17rem;
+    border-radius: 0.5rem; }
+    .forget-two-list p:nth-child(3) input {
+      height: 0.88rem;
+      width: 6.04rem;
+      background-color: #ffc830;
+      font-size: 0.28rem;
+      color: white;
+      border: none;
+      text-align: center;
+      border-radius: 0.5rem; }
+
+/*# sourceMappingURL=forget-two.css.map */

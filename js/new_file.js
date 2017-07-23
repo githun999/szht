@@ -1,0 +1,16 @@
+$('#tou').click(function(){
+	$('#di').css('display','block');
+	$('#zhe').show()
+})
+$('.qu').click(function(){
+	$('#di').css('display','none');
+	$('#zhe').hide()
+})
+$('#ti').click(function(){
+	$('#kuang').css('display','block')
+	$('#zhe2').show()
+})
+$('#que').click(function(){
+	$('#kuang').css('display','none')
+	$('#zhe2').hide()
+})
